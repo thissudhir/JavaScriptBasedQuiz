@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./QuizApplication.css">
+    <link rel="icon" href="./android-chrome-192x192.png">
+</head>
+<body>
+    <main>
+        <!-- <header>
+             <i class="bi bi-brightness-low-fill night-icon"></i> 
+        </header> -->
+        <section class="quiz">
+            <div class="heading">
+                <div class="icon-container">
+                    <span class="position"></span><i class="bi-moon-fill night-icon"></i></span>
+                </div>
+                
+                <!-- <button class="bi-moon-fill"></button> -->
+                <p class="title">QuizNotion</p>
+                <p class="subtitle">Daily quiz to test your knowledge!</p>
+            </div>
+
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Javascript is an _______ language?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A">
+                        <label for="">Object-Oriented</label>
+                    </div>
+                
+                        <div class="option">
+                            <input type="radio" name="q1" value="B">
+                            <label for="">Object-based</label>
+                        </div>
+                    
+                    
+                        <div class="option">
+                            <input type="radio" name="q1" value="C">
+                            <label for="">Procedural</label>
+                        </div>
+                    
+                    
+                        <div class="option">
+                            <input type="radio" name="q1" value="D">
+                            <label for="">None of the above</label>
+                        </div>
+                    
+                </div>
+                <div class="question">
+                    <p>2. Which of the following keywords is used to define a variable in Javascript?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A">
+                        <label for="">var</label>
+                    </div>
+                
+                        <div class="option">
+                            <input type="radio" name="q2" value="B">
+                            <label for="">let</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" value="C">
+                            <label for="">Both A and B</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" value="D">
+                            <label for="">None of above</label>
+                        </div>
+                </div>
+                <div class="question">
+                    <p>3.Which of the following methods is used to access HTML elements using Javascript?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A">
+                        <label for="">getElementbyId()</label>
+                    </div>
+                
+                        <div class="option">
+                            <input type="radio" name="q3" value="B">
+                            <label for="">getElementByClassName()</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" value="C">
+                            <label for="">Both A ans B</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" value="D">
+                            <label for="">None of above</label>
+                        </div>
+                </div>
+                <div class="question">
+                    <p>4. Upon encountering empty statements, what does the Javascript Interpreter do?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A">
+                        <label for="">Throws an error</label>
+                    </div>
+                
+                        <div class="option">
+                            <input type="radio" name="q4" value="B">
+                            <label for="">Ignores the statements</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q4" value="C">
+                            <label for="">Gives a warning</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q4" value="D">
+                            <label for="">None of the above</label>
+                        </div>
+                </div>
+                <div class="question">
+                    <p>5. How can a datatype be declared to be a constant type?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A">
+                        <label for="">const</label>
+                    </div>
+                
+                        <div class="option">
+                            <input type="radio" name="q5" value="B">
+                            <label for="">var</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q5" value="C">
+                            <label for="">let</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q5" value="D">
+                            <label for="">constant</label>
+                        </div>
+                </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            <script src="./QuizApplication.js"></script>
+        </section>
+    </main>
+    
+</body>
+</html>
